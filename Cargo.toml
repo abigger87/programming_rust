@@ -1,0 +1,13 @@
+[package]
+name = "programming_rust"
+version = "0.1.0"
+authors = ["Andreas Bigger <abigger87@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+hello = { path = "./hello" }
+
+[workspace]
+members = [
+    "hello"
+]
